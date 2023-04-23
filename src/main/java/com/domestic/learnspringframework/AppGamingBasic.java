@@ -8,7 +8,10 @@ public class AppGamingBasic {
 
     public static void main(String[] args ){
         //var game = new MarioGame();
+        // 1 . Object Creation
         var game = new SuperContraGame();
+        // 2 . Object Creation + Wiring of Dependencies
+        // Game is dependency of Game Runner
         var gameRunner = new GameRunner(game);
         gameRunner.run();
     }
