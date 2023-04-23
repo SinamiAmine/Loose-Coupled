@@ -4,8 +4,8 @@ import com.domestic.learnspringframework.game.MarioGame;
 
 public class GameRunner {
 
-    private SuperContraGame game;
-    public GameRunner(SuperContraGame game) {
+    private GamingConsole game;
+    public GameRunner(GamingConsole game) {
         this.game = game;
 
     }
